@@ -1,12 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WDD 131</title>
+    <meta name="author" content="Alberto Villanueva">
+    <meta name="description" content="This page is an assignment of the course 
+          WDD 131 Dynamic Web Fundamentals by BYU-i.It was developed by Alberto Villanueva. The website contein concepts about CSS Grid Layout and HTML semantics.Grid Layout, Web Design, Semantic HTML, CSS Styling, Github page.">
+    <title>WDD 131 - Dynamic Web Fundamentals - Alberto Villanueva</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/base.css">
+    <script src="scripts/getdates.js" defer></script>
 </head>
+
 <body>
-    <h1>WDD 131 - Villanueva</h1>
     
+    <header>
+        <h1 class="headline">WDD 131 - Dynamic Web Fundamentals - <span class="yellow">Alberto Villanueva</span></h1>
+        <nav>
+            <a href="http://www.linkedin.com/in/alberto-dario-villanueva-gudiño-b736a047" target="_blank">LinkedIn</a>
+            <a href="https://byui.instructure.com/" target="_blank">I-Learn</a>
+            <a href="https://www.churchofjesuschrist.org/study/scriptures/nt/john/16?id=p33&lang=spa#p33" target="_blank">Scripture</a>
+            <a href="#" target="_blank">Final Project</a>
+        </nav>
+    </header>
+    
+    <main>
+        <section class="card-border">
+            <h2 class="card-title">About Me</h2>
+            
+            <div class="card-content">
+                <p>My name is Alberto Villanueva, I live in Panguipulli Chile, I am a BYU-I Student pursuing a Bachelor´s Degree in Software Development. I love reading, listening to music, and jogging. I love being in touche with nature. I have a loving wife, two wonderful daughters and a smal race dog. We love to go out for an ice cream and we also like going for a pizza.</p>
+                <img src="images/AlbertoVillanueva.jpeg" alt="Profile" width="200" height="100">
+            </div>
+            
+            <div>
+                <h2 class="title-place">Panguipulli, Chile</h2>
+                
+                <div class="card-content">
+                    <figure>
+                        <img src="images/Bandera_de_Panguipulli.png" alt="Placeholder" width="1920" height="1200">
+                        <figcaption>Official Flag of Chile</figcaption>
+                    </figure>
+                    <p>Panguipulli, located in Chile's Los Ríos Region, is a dreamlike destination surrounded by crystal-clear lakes, lush forests, and majestic mountains. With stunning views of Villarrica Volcano and a rich local culture, it's the perfect getaway for nature lovers, tranquility seekers, and adventurers alike. The area offers a range of outdoor activities, from boating and hiking to birdwatching and fishing, all set against an incomparable natural backdrop.</p>
+                </div>
+            </div>
+        </section>
+        
+        <section class="card card-border">
+            <h2 class="card-title">Web Dev Resources</h2>
+            
+            <ul>
+                <li>
+                    <a href="https://www.w3schools.com/" target="_blank">W3 Schools</a>
+                </li>
+                <li>
+                    <a href="https://css-tricks.com/" target="_blank">CSS Tricks</a>
+                </li>
+                <li>
+                    <a href="https://github.com/nepaul/awesome-web-development" target="_blank">Awesome Web Development</a>
+                </li>
+            </ul>
+        </section>
+    </main>
+    
+    <footer class="headline">
+        <p>&copy;<span id="currentyear"></span> 😎 Alberto Villanueva 😎 Panguipulli, Chile.</p>
+        <p id="lastModified" class="highlighted"></p>
+    </footer>
 </body>
 </html>
