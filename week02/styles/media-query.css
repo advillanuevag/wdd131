@@ -1,25 +1,20 @@
-body{
-    font-family: "Roboto" sans-serif;
-}
-
-.common-styles{
-    max-width: 640px;
+header, main, footer {
     margin: 1rem auto;
+    max-width: 640px;
     border: 1px solid #bbb;
+    background-color: rgb(29, 194, 224);
     padding: 1rem;
-    background-color: #e6f2ff
-
 }
-
-main{
-    display:grid;
+body {
+    font-family: 'Roboto', sans-serif;
+}
+main {
+    display: grid;
     grid-template-columns: 1fr;
     grid-gap: 1rem;
 }
-
-section{
+.paragraph  {
     padding: 1rem;
-    background-color: #fff
-    
+    background-color: rgb(236, 236, 236);
 }
 
