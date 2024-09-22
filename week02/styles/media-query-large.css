@@ -4,6 +4,14 @@
     header {
       background-color: black;
       color:whitesmoke;
+
+    }
+
+    h1{
+      background-color: black;
+      padding: 100px;
+      border: black;
+      
     }
   
     /* Change main element to display two columns of equal size */
