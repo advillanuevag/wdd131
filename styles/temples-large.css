@@ -1,0 +1,79 @@
+/* Media Queries for larger screens */
+@media (min-width: 600px) {
+    main.gallery {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (min-width: 900px) {
+    main.gallery {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 40em) {
+	header {
+        padding: 1.5rem;
+        background-color: #28527a;
+        text-align: center;
+    }
+    footer {
+        padding: 1.5rem;
+        background-color: #28527a;
+        font-size: 1.25rem;
+        text-align: center;
+    }
+    
+    .navigation {
+		display: flex;
+        justify-content: flex-end;
+	}
+	.navigation li {
+		display: block; 
+		flex: 1 1 100%;
+	}
+	.navigation a {
+		text-align: center;
+	}
+	#menu {
+		display: none;
+	}
+
+    
+    .temples-gallery{
+        display:grid;
+        gap:1rem;
+        grid-auto-rows: 22rem;
+        grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+
+    }
+        
+    
+    .temple-image{
+        width: 200px;
+        height: 100px;
+
+        
+    }
+    
+        
+}
+    
