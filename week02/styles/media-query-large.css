@@ -1,11 +1,10 @@
 @media screen and (min-width: 500px) {
     header {
-        background-color: black;
+        background-color: rgb(73, 73, 73);
         color: white;
     }
-
     main {
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
-}
+  }
